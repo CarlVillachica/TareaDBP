@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DBP</string>
+    <string name="title_section1">Favourites</string>
+    <string name="title_section2">Chats</string>
+    <string name="title_section3">Contacts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="imgdesc">imgdesc</string>
+
+    <string-array name="Nombres">
+        <item>Carl Villachica</item>
+        <item>Contacto 1</item>
+        <item>Contacto 2</item>
+        <item>Contacto 3</item>
+        <item>Contacto 4</item>
+        <item>Contacto 5</item>
+        <item>Contacto 6</item>
+        <item>Contacto 7</item>
+        <item>Contacto 8</item>
+    </string-array>
+
+</resources>
