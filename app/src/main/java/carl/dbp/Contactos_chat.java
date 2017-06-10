@@ -5,6 +5,7 @@ package carl.dbp;
         import android.os.Bundle;
         import android.support.v4.app.Fragment;
         import android.support.v7.app.ActionBarActivity;
+        import android.util.Log;
         import android.view.LayoutInflater;
         import android.view.View;
         import android.view.View.OnClickListener;
@@ -25,6 +26,7 @@ public class Contactos_chat extends Fragment implements OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        Log.d("prueba", "onCreateView: ");
         View view = inflater.inflate(R.layout.activity_contactos_chat, container, false);
         random = new Random();
         ((ActionBarActivity) getActivity()).getSupportActionBar().setTitle(
